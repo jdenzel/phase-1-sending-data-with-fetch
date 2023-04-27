@@ -35,7 +35,7 @@ describe( "submitData()", () => {
       } );
 
     let name = "Steve"
-    let email = "steve@steve.com"
+    let email = ""
 
     await submitData( name, email )
     expect( window.fetch, "A fetch to the API was not found" )
